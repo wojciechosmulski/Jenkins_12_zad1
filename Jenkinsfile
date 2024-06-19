@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        dockerContainer { image 'ss24531/jenkins-python-agent:latest' }
+        dockerContainer { image 'jenkins-python-agent:latest' }
     }
     triggers {
     pollSCM('* * * * *')
