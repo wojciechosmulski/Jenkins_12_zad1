@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage("Checkout") {
             steps {
-                git url: 'https://github.com/s24531/Jenkins12_zad1', branch: 'main', credentialsId: 'github-token'
+                git url: 'https://github.com/s24531/Jenkins_12_zad1.git', branch: 'main'
             }
         }
         stage('Build') {
