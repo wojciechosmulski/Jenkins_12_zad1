@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage("Checkout") {
             steps {
-                git url: 'https://github.com/s24531/Jenkins_12_zad1.git', branch: 'main'
+                git url: 'https://github.com/wojciechosmulski/Jenkins_12_zad1.git', branch: 'main'
             }
         }
         stage('Build') {
